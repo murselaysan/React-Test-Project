@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import BuildItem from './BuildItem';
 
 function App() {
   return (
     <div className="App">
-     hello world 
+      <BuildItem />
     </div>
   );
 }
